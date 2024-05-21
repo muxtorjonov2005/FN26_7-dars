@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway';
+}
+
+body a {
+    color: #282B22;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    gap: 145px;
+}
+
+.nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+nav a {
+    font-weight: 500;
+    transition: all 0.5s;
+}
+
+nav a:hover {
+    color: #AE7B3C;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.nets {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.phone a {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+.phone span {
+    font-family: 'Lato';
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+
+.hero {
+    background-image: url('../images/hero.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    padding-bottom: 50px;
+}
+
+.hero h1 {
+    width: 446px;
+    font-family: 'Lato';
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    width: 520px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    opacity: 80%;
+    margin-bottom: 50px;
+}
+
+.hero button{
+    padding: 22px 53px;
+    display: block;
+    text-align: center;
+    margin: auto;
+    background-color: #AE7B3C;
+    border: none;
+    box-shadow: 0 20px 0 #0000000D;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 120px;
+
+    transition: all 0.5s;
+
+}
+
+button:hover{
+    background-color: #855c2a;
+}
+
+.fraph{
+    border-top: 1px solid #FFFFFF;
+    opacity: 40%;
+    padding-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.arrow{
+    display: flex;
+    gap: 25px;
+}
+
+.pages{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.pages a{
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    padding: 8px;
+    opacity: 40%;
+    transition: all 0.5s;
+}
+
+.pages a:hover{
+    opacity: 100%;
+}
+
+
+
+.viber{
+    padding-top: 140px;
+    padding-bottom: 140px;
+}
+
+.viber h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 80px;
+}
+
+.viber__block{
+    display: flex;
+    gap: 30px;
+}
+
+.item h4, p{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 60px;
+    color: #3D4A39;
+}
+
+.item h4{
+    opacity: 40%;
+}
+
+.item p{
+    margin-bottom: 30px;
+}
+
+
+.item1{
+    border-left: 1px solid rgba(40, 43, 34, 0.2); 
+    padding-left: 30px;   
+}
+
+.item2{
+    border-left: 1px solid rgba(40, 43, 34, 0.2); 
+    padding-left: 30px;   
+}
+
+.item3{
+    border-left: 1px solid rgba(40, 43, 34, 0.2);
+    border-right: 1px solid rgba(40, 43, 34, 0.2); 
+    padding-left: 30px;
+    padding-right: 30px;   
+}
